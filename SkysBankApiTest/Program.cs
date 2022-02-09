@@ -13,6 +13,7 @@ namespace SkysBankApiTest
         {
             var client = new SweaWebServicePortTypeClient();
             var days = client.getCalendarDays(new DateTime(2022, 1, 1), new DateTime(2022, 2, 2));
+            // sdffsdsdfdfs
             foreach (var day in days)
             {
                 Console.WriteLine(day.bankday);
